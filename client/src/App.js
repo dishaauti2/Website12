@@ -1,4 +1,5 @@
 import Services from "./components/Services";
+
 import Newlogin from "./components/Newlogin";
 import Error from "./components/Error";
 import Forgotpassword from "./components/Forgotpassword";
@@ -21,6 +22,8 @@ function App() {
           <Route path='/faq' component={Faq} exact></Route>
           <Route path='/aboutus' component={About} exact></Route>
           <Route component={Error}></Route>
+         
+
         </Switch>
       </main>
     </div>

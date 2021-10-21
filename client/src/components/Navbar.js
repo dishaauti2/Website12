@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default function Navbar() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-info">
                 <div className="container-fluid">
                     <a className="navbar-brand" to="/">Pysch.Me</a>
                     <span class="mb-0 h5">
